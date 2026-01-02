@@ -8,6 +8,8 @@ public class TestSpringGitApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(TestSpringGitApplication.class, args);
+		System.out.println("test-spring-git app running now...");
 	}
+
 
 }
