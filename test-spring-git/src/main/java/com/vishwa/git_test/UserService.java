@@ -12,8 +12,8 @@ import org.springframework.stereotype.Service;
 @Setter
 public class UserService {
 
-    private String userName = "test";
-    private int userId = 1;
+    private String name = "test";
+    private int id = 1;
 
 
 }

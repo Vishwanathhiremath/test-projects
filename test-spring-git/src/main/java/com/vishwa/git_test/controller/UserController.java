@@ -13,7 +13,7 @@ public class UserController {
     public String getUsers() {
 
         UserService user = new UserService();
-        return "user found ( name : " + user.getUserName() + " , id : " + user.getUserId() + ") ";
+        return "user found ( name : " + user.getName() + " , id : " + user.getId() + ") ";
 
     }
 }
